@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora:37-x86_64
+FROM quay.io/fedora/fedora:38-x86_64
 MAINTAINER Jiri Stransky <jistr@jistr.com>
 
 RUN dnf -y update --refresh; dnf clean all
